@@ -1,0 +1,246 @@
+html{
+    background-color: #eceff1;
+    min-width: 1200px;
+    font-family: 'dinar', 'tahoma';
+    font-weight: 400;
+    list-style-type: none;
+    color : #515151;
+
+}
+@font-face {
+    font-family: 'dinar';
+    src: url("font/dinar.woff");
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+}
+.border{
+    border-bottom:ridge ;
+    margin: 0 40px;
+    color: #cfd8dc;
+    width: 90%;
+}
+.iconText{
+    text-align: center;
+    display: inline-block;
+    margin: 1rem 3rem;
+    text-decoration: none;
+    color: #515151;
+}
+nav img{
+    display: block;
+    width: 70px;
+    height: 90px;
+    margin-bottom: 15px;
+    margin-right: 1.5rem;
+    text-align: center;
+}
+
+.headTitle{
+    color:#515151;
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.sec-2 .spacer div a{
+    display: block;
+    text-decoration: none;
+    color: #4a5f73;
+    font-weight: 400;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+.sec-2{
+    display: inline-flex;
+    width: 90%;
+}
+.spacer{
+    display: inline-table;
+    width: calc(25% - 2px);
+
+}
+.sec-2 .searchSec{
+    color: #4a5f73;
+    display: inline-table;
+    font-size: 1rem;
+    line-height: 1.571;
+    letter-spacing: .3px;
+    font-weight: 500;
+}
+.section2{
+    display: inline-flex;
+
+    justify-content: center;
+}
+
+.section2 .searchSec input{
+    border: none;
+    height: 2.5rem;
+    width: 13rem;
+    font-family: 'dinar';
+    text-decoration-color: #f0eeed;
+    padding-left: 0;
+    outline: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    white-space: nowrap;
+}
+
+.searchSec button{
+    background-color: #00bfd6;
+    border: none;
+    height: 2.5rem;
+    color: white;
+    font-family: 'dinar';
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+    width: 50px;
+}
+.searchSec button:hover{
+    cursor: pointer;
+}
+.searchSec div ul li{
+    display: inline-flex;
+    margin: 0 10px;
+
+}
+
+.sec3 div ul{
+    text-align: center;
+    margin-top: 30px;
+}
+.sec3 div ul li{
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #535353;
+
+}
+.sec3 div:nth-child(2){
+    display:  block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sec3 div a img{
+    line-height: 22px;
+    width: 150px;
+}
+.sec4{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #d7dee0;
+}
+.des{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.des p{
+    font-size: 13px;
+    word-spacing: 3px;
+    font-weight: 300;
+    color: #535353;
+
+}
+
+.cerfi{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 40%;
+    padding-left: 80px;
+}
+.sec4 div ul{
+    margin-top: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4 div ul li {
+    width: 130px;
+    line-height: 22px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+}
+.sec4 div ul li a img{
+    width: 121px;
+    height: 120px;
+    padding: 0 20px;
+    line-height: 22px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.social{
+    display: block;
+    background-color: #d7dee0;
+    margin-top: 0;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.svgLogo{
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+    line-height: 1.692;
+    color: #606060;
+    letter-spacing: .2px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+#tahvil{
+    background: url(./svg/tahvilExpress.svg) 43% 8px no-repeat;
+    background-size: auto 58px;
+}
+
+#support{
+    background: url(./svg/support.svg) 50% 4px no-repeat;
+    background-size: auto 58px;
+}
+
+#pardakht{
+    background: url(./svg/pardakht.svg) 50% 0 no-repeat;
+    background-size: auto 58px;
+}
+
+#guarantee{
+    background: url(./svg/Guarantee.svg) 50% 5px no-repeat;
+    background-size: auto 58px;
+}
+
+#original{
+    background: url(./svg/fdb293e6.svg) 50% 6px no-repeat;
+    background-size: auto 58px;
+}
+.ertebat ul li i {
+    color: #979ba0;
+}
+.ertebat h5{
+    margin-bottom: 0;
+}
+.ertebat ul li i:hover{
+    cursor: pointer;
+    color: #424753;
+}
+
+.hr{
+    width: 80%;
+    color: #cfd8dc;
+
+}
